@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sucursales - CAFETERIA VP</title>
+  <link rel="stylesheet" href="./style/styles.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <div class="brand">
+    <span class="brand-icon">VP</span>
+
+    <div>
+      <p class="brand-title">CAFETERIA VP</p>
+      <p class="brand-subtitle">
+        Un buen cafÃ© siempre encuentra el momento perfecto.
+      </p>
+    </div>
+  </div>
+
+
+  <form class="search" role="search">
+    <input type="text" placeholder="Buscar sucursales..." />
+    <button type="submit">Buscar</button>
+  </form>
+
+
+  <nav class="main-nav">
+    <a href="./paginaprincipal.html">INICIO</a>
+  </nav>
+
+</header>
+
+
+<main class="page">
+
+
+<!-- IMAGEN PRINCIPAL -->
+
+<section class="profile">
+
+<img
+src="./cafeteria.jpg"
+alt="Sucursal de cafeterÃ­a"
+/>
+
+
+<div class="profile-info">
+
+<h1>
+Encuentra tu cafeterÃ­a favorita
+</h1>
+
+
+<div class="profile-meta">
+
+<div>
+<p class="meta-label">
+Sucursal principal:
+</p>
+
+<p class="meta-value">
+Loja, Ecuador
+</p>
+
+</div>
+
+
+<div>
+<p class="meta-label">
+Horario:
+</p>
+
+<p class="meta-value">
+08:00 AM - 09:00 PM
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="profile-actions">
+
+<button class="badge">
+3 Sucursales
+</button>
+
+<button class="badge badge-outline">
+VisÃ­tanos
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- INFORMACIÃ“N -->
+
+<section class="section">
+
+<h2>
+Nuestras sucursales
+</h2>
+
+
+<p class="text">
+Contamos con diferentes puntos de atenciÃ³n donde podrÃ¡s disfrutar cafÃ© de especialidad, bebidas frÃ­as, postres y un ambiente cÃ³modo para compartir con amigos o familia.
+</p>
+
+
+</section>
+
+
+
+<!-- SUCURSALES -->
+
+<section class="section">
+
+<h2>
+UBICACIONES
+</h2>
+
+
+<div class="card-grid">
+
+
+<article class="card">
+
+<img
+src="./feature-_UC8A1822.jpg"
+alt="Sucursal centro"
+class="card-img"
+/>
+
+
+<h3>
+Sucursal principal
+</h3>
+
+
+<p>
+Calle Principal, Loja<br>
+Lunes a Domingo<br>
+08:00 AM - 09:00 PM
+</p>
+
+</article>
+
+
+
+
+<article class="card">
+
+<img
+src="./cafeteria2.jpg"
+alt="Sucursal norte"
+class="card-img"
+/>
+
+
+<h3>
+Sucursal secundaria 
+</h3>
+
+
+<p>
+Avenida Principal, PC<br>
+Lunes a Domingo<br>
+09:00 AM - 08:00 PM
+</p>
+
+
+</article>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- SERVICIOS -->
+
+<section class="section">
+
+
+<h2>
+Servicios disponibles
+</h2>
+
+
+<div class="card-grid card-grid--photos">
+
+
+<article class="photo-card">
+
+
+<img
+src="./servicios.jpg"
+alt="Servicios de cafeterÃ­a"
+class="photo-card-img"
+/>
+
+
+<p>
+En nuestras sucursales ofrecemos cafÃ© preparado al momento, pedidos para llevar, espacios cÃ³modos para estudiar o trabajar y atenciÃ³n personalizada para cada cliente.
+</p>
+
+
+</article>
+
+
+</div>
+
+
+</section>
+
+
+</main>
+
+
+
+<footer class="site-footer">
+
+<p>
+CAFETERIA VP
+</p>
+
+</footer>
+
+
+</body>
+</html>
