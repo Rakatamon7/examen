@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos de CafeterÃ­a</title>
+
+    <link rel="stylesheet" href="./style/stilopedidos.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegaciÃ³n -->
+    <nav class="navbar">
+        <a href="./paginaprincipal.html" class="inicio">Inicio</a>
+    </nav>
+
+    <section class="carousel-section" id="cafeteria">
+
+        <h2 class="carousel-title">Nuestro MenÃº</h2>
+
+        <div class="carousel-container">
+            <div class="carousel">
+
+                <div class="track">
+
+                    <!-- PRODUCTO 1 -->
+                    <div class="team-card">
+                        <img src="./cafe s.jpg" alt="CafÃ© Espresso">
+                        <h3>CafÃ© Espresso</h3>
+                        <p>Un cafÃ© intenso y aromÃ¡tico.</p>
+                    </div>
+
+                    <!-- PRODUCTO 2 -->
+                    <div class="team-card">
+                        <img src="./capuchino.avif" alt="Cappuccino">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso con leche vaporizada y espuma.</p>
+                    </div>
+
+                    <!-- PRODUCTO 3 -->
+                    <div class="team-card">
+                        <img src="./latte.jpg" alt="CafÃ© Latte">
+                        <h3>CafÃ© Latte</h3>
+                        <p>Suave combinaciÃ³n de cafÃ© y leche.</p>
+                    </div>
+
+                    <!-- PRODUCTO 4 -->
+                    <div class="team-card">
+                        <img src="./mocha.jpg" alt="Mocha">
+                        <h3>Mocha</h3>
+                        <p>CafÃ© con chocolate y crema.</p>
+                    </div>
+
+                    <!-- PRODUCTO 5 -->
+                    <div class="team-card">
+                        <img src="./c.jpg" alt="Croissant">
+                        <h3>Croissant</h3>
+                        <p>Hojaldre reciÃ©n horneado.</p>
+                    </div>
+
+                    <!-- PRODUCTO 6 -->
+                    <div class="team-card">
+                        <img src="./pastel.jpg" alt="Pastel de Chocolate">
+                        <h3>Pastel de Chocolate</h3>
+                        <p>Delicioso pastel con cobertura de chocolate.</p>
+                    </div>
+
+                    <!-- PRODUCTO 7 -->
+                    <div class="team-card">
+                        <img src="./ch.avif" alt="Cheesecake">
+                        <h3>Cheesecake</h3>
+                        <p>Tarta de queso con mermelada de frutos rojos.</p>
+                    </div>
+
+                    <!-- PRODUCTO 8 -->
+                    <div class="team-card">
+                        <img src="./te.jpg" alt="TÃ© Caliente">
+                        <h3>TÃ© Caliente</h3>
+                        <p>InfusiÃ³n natural de diferentes sabores.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
