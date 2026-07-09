@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EXAMEN</title>
+  <link rel="stylesheet" href="./style/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-icon">VP</span>
+    <div>
+      <p class="brand-title">CAFETERIA VP</p>
+      <p class="brand-subtitle">Un buen cafÃ© siempre encuentra el momento perfecto.</p>
+    </div>
+  </div>
+
+  <form class="search" role="search">
+  <label class="sr-only" for="search-input">Buscar</label>
+  <input id="search-input" type="text" placeholder="Escribe: equipos, patrocinadores..." />
+  <button type="submit">Buscar</button>
+</form>
+
+  <nav class="main-nav" aria-label="NavegaciÃ³n">
+    <a href="./sucursales.html">SUCURSALES</a>
+    <a href="./pedidos.html">PEDIDOS</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <!-- IMAGEN PRINCIPAL -->
+  <section class="profile">
+
+    <img
+      src="./cafeteria.jpg"
+      alt="Champions League"
+    />
+
+    <div class="profile-info">
+
+      <h1>El equilibrio perfecto entre aroma y sabor.</h1>
+
+      <div class="profile-meta">
+
+        <div>
+          <p class="meta-label">Estamos ubicados en:</p>
+          <p class="meta-value">Loja, Ecuador</p>
+        </div>
+
+        
+
+      </div>
+
+      <div class="profile-actions">
+        <button class="badge">8 Equipos</button>
+        <button class="badge badge-outline">1 Copa</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TEXTO -->
+  <section class="section" id="destacadas">
+
+    <h2>Nuestro cafÃ©</h2>
+
+    <p class="text">
+     Seleccionamos granos de alta calidad y los preparamos con pasiÃ³n para brindarte una experiencia Ãºnica en cada taza.
+    </p>
+
+  </section>
+
+  <!-- EQUIPOS -->
+  <section class="section" id="stats">
+
+    <h2>CALIDAD EN CADA TAZA</h2>
+
+    <div class="card-grid">
+
+      <!-- TARJETA CON IMAGEN -->
+      <article class="card">
+
+        <img
+          src="./cafe-1599479980.avif"
+          alt="Equipos Champions League"
+          class="card-img"
+        />
+
+      </article>
+
+      <!-- TARJETA CON TEXTO -->
+      <article class="card">
+
+        <p>
+         Seleccionamos granos de alta calidad y los tostamos cuidadosamente para resaltar su aroma y sabor. Nuestro compromiso es ofrecer bebidas preparadas con dedicaciÃ³n para que cada visita sea una experiencia Ãºnica.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+  <!-- PATROCINADORES -->
+  <section class="section" id="empresas">
+
+    <h2>NUESTRAS ESPECIALIDADES</h2>
+
+    <div class="card-grid card-grid--photos">
+
+      <article class="photo-card">
+
+        <img
+          src="./collection-cold-coffee-iced-beverages-260nw-2679452019.webp"
+          alt="Patrocinadores Champions League"
+          class="photo-card-img"
+        />
+
+        <p>
+         Descubre nuestras bebidas favoritas: espresso, cappuccino, latte, mocha, cafÃ© frÃ­o y frappÃ©s, acompaÃ±ados de deliciosos postres y bocadillos reciÃ©n preparados.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>CAFETERIA VP</p>
+</footer>
+
+</body>
+</html>
