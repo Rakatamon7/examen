@@ -1,0 +1,404 @@
+/* ================= RESET ================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ================= VARIABLES ================= */
+
+:root{
+    --fondo:#f5eee6;
+    --cafe:#4b2e1f;
+    --cafe-claro:#8b5e3c;
+    --dorado:#c28b45;
+    --blanco:#ffffff;
+    --gris:#666;
+    --sombra:0 10px 25px rgba(0,0,0,.15);
+}
+
+
+/* ================= GENERALES ================= */
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:var(--fondo);
+    color:var(--cafe);
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.page{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+.section{
+    margin-top:45px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    font-size:30px;
+    color:var(--cafe);
+}
+
+
+
+/* ================= HEADER ================= */
+
+.site-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+
+    background:var(--cafe);
+    color:white;
+
+    box-shadow:var(--sombra);
+}
+
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+
+.brand-icon{
+
+    width:55px;
+    height:55px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:var(--dorado);
+    color:white;
+
+    border-radius:50%;
+    font-weight:bold;
+}
+
+
+.brand-title{
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.brand-subtitle{
+    color:#e6d6c5;
+}
+
+
+
+/* ================= BUSCADOR ================= */
+
+.search{
+
+    background:white;
+    padding:8px;
+    border-radius:30px;
+
+    display:flex;
+}
+
+
+.search input{
+
+    border:none;
+    outline:none;
+    padding:10px;
+
+}
+
+
+.search button{
+
+    border:none;
+    background:var(--dorado);
+    color:white;
+
+    padding:10px 20px;
+    border-radius:25px;
+
+    cursor:pointer;
+}
+
+
+
+/* ================= MENU ================= */
+
+.main-nav{
+
+    display:flex;
+    gap:15px;
+
+}
+
+
+.main-nav a{
+
+    color:white;
+    padding:10px 18px;
+    border-radius:20px;
+
+    transition:.3s;
+
+}
+
+
+.main-nav a:hover{
+
+    background:var(--dorado);
+
+}
+
+
+
+/* ================= PERFIL PRINCIPAL ================= */
+
+.profile{
+
+    display:grid;
+    grid-template-columns:300px 1fr;
+
+    gap:35px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--sombra);
+
+}
+
+
+.profile img{
+
+    width:300px;
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+}
+
+
+
+.profile-info h1{
+
+    font-size:35px;
+    color:var(--cafe);
+
+}
+
+
+
+.profile-meta{
+
+    display:flex;
+    gap:50px;
+    margin:25px 0;
+
+}
+
+
+.meta-label{
+
+    color:var(--gris);
+
+}
+
+
+
+/* ================= BOTONES ================= */
+
+.badge{
+
+    background:var(--dorado);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:25px;
+
+}
+
+
+.badge-outline{
+
+    background:white;
+
+    color:var(--cafe);
+
+    border:2px solid var(--dorado);
+
+}
+
+
+
+/* ================= TARJETAS DE SUCURSALES ================= */
+
+.card-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:var(--sombra);
+
+    padding-bottom:20px;
+
+    transition:.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.card-img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+
+
+.card h3{
+
+    padding:15px;
+
+    color:var(--cafe);
+
+}
+
+
+
+.card p{
+
+    padding:0 15px;
+
+    color:var(--gris);
+
+}
+
+
+
+/* ================= SERVICIOS ================= */
+
+
+.photo-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    box-shadow:var(--sombra);
+
+}
+
+
+
+.photo-card-img{
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+
+
+.photo-card p{
+
+    margin-top:15px;
+
+    color:var(--gris);
+
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+
+
+@media(max-width:800px){
+
+    .site-header{
+
+        flex-direction:column;
+        gap:20px;
+
+    }
+
+
+    .profile{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .profile img{
+
+        width:100%;
+
+    }
+
+
+    .card-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
